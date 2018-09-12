@@ -19,6 +19,8 @@ dependencies {
     compile("org.jasig.cas:cas-server-webapp:${project.'cas.version'}@war") {
         transitive = true
     }
+
+    compile "org.jasig.cas:cas-server-support-ldap:${project.'cas.version'}"
 }
 
 war {
